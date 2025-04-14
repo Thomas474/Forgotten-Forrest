@@ -1,7 +1,6 @@
 import random
 
-# Define all global variables properly
-fox_status = None  # <- Initialize fox_status
+global fox_status
 
 hatmanclue1 = False
 hatmanclue2 = False
@@ -10,7 +9,6 @@ hatmanclue3 = False
 eirahint1 = False
 eirahint2 = False
 eirahint3 = False
-
 
 
 # Initialize player's health
